@@ -18,5 +18,5 @@ def get_all():
         }
         data.append(url_data)
     conn.close()
-    return data, 200
+    return data
 
