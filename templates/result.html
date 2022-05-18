@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Your shortened url is: <a target="_blank" href="http://localhost:5000/{{short_url_display}}">{{short_url_display}}</a></h1>
-    <h3>Alternatively, you can copy and paste this link into your browser: http://localhost:5000/{{short_url_display}}</h3>
-    <a href="http://localhost:5000">Shorten another one!</a>
-
-
+    <div class="center">
+        <h1>Your shortened url is: <a target="_blank" href="http://localhost:5000/{{short_url_display}}">{{short_url_display}}</a></h1>
+        <h3>Alternatively, you can copy and paste this link into your browser: <span id="copy-paste">http://localhost:5000/{{short_url_display}}</span></h3>
+        <a href="http://localhost:5000">Shorten another one!</a>
+    </div>
 {% endblock content %}

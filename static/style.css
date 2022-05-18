@@ -19,3 +19,13 @@ label, input {
     margin: 0.2em;
     padding: 0.5em;
 }
+
+.center {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#copy-paste {
+    color: orange;
+}
