@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#submit-url {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+label, input {
+    margin: 0.2em;
+    padding: 0.5em;
+}
