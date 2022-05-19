@@ -33,7 +33,7 @@ def home():
             return redirect(url_for("display_result", url=found_url))
         else:
             short_url = shorten_url()
-            conn.execute("INSERT INTO urls (normal, shortened) VALUES (?,?) RETURNING *", (url_to_shorten, short_url)).fetchall()
+            conn.execute("INSERT INTO urls (normal, shortened) VALUES (?,?)", (url_to_shorten, short_url))
             conn.commit()
             conn.close()
             return redirect(url_for("display_result", url=short_url))
