@@ -25,6 +25,6 @@ The URL is then stored in a database, and doesn't allow any duplicates, so when 
 - Getting the redirect working.
 
 ### Challenges
-- When deploying to Heroku, it deployed fine but posting to the database returns an Internal Server Error.
+- When deploying to Heroku, it deployed fine but posting to the database returns an Internal Server 500 Error.
 
 
