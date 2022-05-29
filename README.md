@@ -6,8 +6,10 @@
 
 ## Project Description
 In this application, the user can enter a URL and receive a shortened one.
-For example, if you input https://github.com/getfutureproof, you will receive back http://localhost:5000/LGFIm
+For example, if you input https://github.com/getfutureproof, you will receive back https://miniurl123.herokuapp.com/LGFIm
 The URL is then stored in a database, and doesn't allow any duplicates, so when you paste the original URL again, it will give back the same shortened one.
+
+- The project is deployed at: https://miniurl123.herokuapp.com/
 
 ## Installation & Usage
 ### Installation
@@ -25,6 +27,6 @@ The URL is then stored in a database, and doesn't allow any duplicates, so when 
 - Getting the redirect working.
 
 ### Challenges
-- When deploying to Heroku, it deployed fine but posting to the database returns an Internal Server Error.
+- Deploying to Heroku was an initial challenge, but was sorted out.
 
 
